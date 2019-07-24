@@ -84,94 +84,94 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="java-SE基础知识（一）"><a href="#java-SE基础知识（一）" class="headerlink" title="java SE基础知识（一）"></a>java SE基础知识（一）</h2><ol>
-<li>java语言平台</li>
+        <h2 id="java-SE&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E00;&#xFF09;"><a href="#java-SE&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E00;&#xFF09;" class="headerlink" title="java SE&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E00;&#xFF09;"></a>java SE&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E00;&#xFF09;</h2><ol>
+<li>java&#x8BED;&#x8A00;&#x5E73;&#x53F0;</li>
 </ol>
 <ul>
-<li>J2SE：桌面应用开发</li>
-<li>J2ME:嵌入式设备开发</li>
-<li>J2EE：企业级应用开发</li>
+<li>J2SE&#xFF1A;&#x684C;&#x9762;&#x5E94;&#x7528;&#x5F00;&#x53D1;</li>
+<li>J2ME:&#x5D4C;&#x5165;&#x5F0F;&#x8BBE;&#x5907;&#x5F00;&#x53D1;</li>
+<li>J2EE&#xFF1A;&#x4F01;&#x4E1A;&#x7EA7;&#x5E94;&#x7528;&#x5F00;&#x53D1;</li>
 </ul>
 <ol start="2">
-<li>java跨平台</li>
+<li>java&#x8DE8;&#x5E73;&#x53F0;</li>
 </ol>
 <ul>
-<li>依赖于JVM（java虚拟机）</li>
-<li>JRE（java运行时环境）包括 JVM、java程序所需核心类库</li>
-<li>JDK（java开发工具包））包括JRE</li>
+<li>&#x4F9D;&#x8D56;&#x4E8E;JVM&#xFF08;java&#x865A;&#x62DF;&#x673A;&#xFF09;</li>
+<li>JRE&#xFF08;java&#x8FD0;&#x884C;&#x65F6;&#x73AF;&#x5883;&#xFF09;&#x5305;&#x62EC; JVM&#x3001;java&#x7A0B;&#x5E8F;&#x6240;&#x9700;&#x6838;&#x5FC3;&#x7C7B;&#x5E93;</li>
+<li>JDK&#xFF08;java&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x5305;&#xFF09;&#xFF09;&#x5305;&#x62EC;JRE</li>
 </ul>
-<p>总结：使用JDK去开发java程序，交给jre去运行。</p>
+<p>&#x603B;&#x7ED3;&#xFF1A;&#x4F7F;&#x7528;JDK&#x53BB;&#x5F00;&#x53D1;java&#x7A0B;&#x5E8F;&#xFF0C;&#x4EA4;&#x7ED9;jre&#x53BB;&#x8FD0;&#x884C;&#x3002;</p>
 <ol start="3">
-<li>常用DOS命令</li>
+<li>&#x5E38;&#x7528;DOS&#x547D;&#x4EE4;</li>
 </ol>
 <ul>
-<li>cd 、cd..</li>
-<li>cls清屏、exit退出</li>
-<li>上下翻滚命令</li>
+<li>cd &#x3001;cd..</li>
+<li>cls&#x6E05;&#x5C4F;&#x3001;exit&#x9000;&#x51FA;</li>
+<li>&#x4E0A;&#x4E0B;&#x7FFB;&#x6EDA;&#x547D;&#x4EE4;</li>
 </ul>
 <ol start="4">
-<li>HelloWorld案例</li>
+<li>HelloWorld&#x6848;&#x4F8B;</li>
 </ol>
 <ul>
-<li>.java文件（源文件）通过compiler（编译器）编译，生成.class字节码文件再通过interpreter（解释器）运行</li>
-<li>javac编译命令 java运行命令</li>
+<li>.java&#x6587;&#x4EF6;&#xFF08;&#x6E90;&#x6587;&#x4EF6;&#xFF09;&#x901A;&#x8FC7;compiler&#xFF08;&#x7F16;&#x8BD1;&#x5668;&#xFF09;&#x7F16;&#x8BD1;&#xFF0C;&#x751F;&#x6210;.class&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;&#x518D;&#x901A;&#x8FC7;interpreter&#xFF08;&#x89E3;&#x91CA;&#x5668;&#xFF09;&#x8FD0;&#x884C;</li>
+<li>javac&#x7F16;&#x8BD1;&#x547D;&#x4EE4; java&#x8FD0;&#x884C;&#x547D;&#x4EE4;</li>
 </ul>
 <ol start="5">
-<li>java关键字</li>
+<li>java&#x5173;&#x952E;&#x5B57;</li>
 </ol>
 <ul>
-<li>被赋予了特定含义的单词<br>特点：小写、颜色标记</li>
+<li>&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x7279;&#x5B9A;&#x542B;&#x4E49;&#x7684;&#x5355;&#x8BCD;<br>&#x7279;&#x70B9;&#xFF1A;&#x5C0F;&#x5199;&#x3001;&#x989C;&#x8272;&#x6807;&#x8BB0;</li>
 </ul>
 <ol start="6">
-<li>计算机存储单元</li>
+<li>&#x8BA1;&#x7B97;&#x673A;&#x5B58;&#x50A8;&#x5355;&#x5143;</li>
 </ol>
 <ul>
-<li>位（bit），用b表示；字节（Byte），用B表示。</li>
-<li>换算关系：<br>1 Byte = 8 bit<br>1 KB = 1024 B<br>1 MB = 1024 KB<br>1 GB = 1024 MB<br>1 TB = 1024 GB</li>
+<li>&#x4F4D;&#xFF08;bit&#xFF09;&#xFF0C;&#x7528;b&#x8868;&#x793A;&#xFF1B;&#x5B57;&#x8282;&#xFF08;Byte&#xFF09;&#xFF0C;&#x7528;B&#x8868;&#x793A;&#x3002;</li>
+<li>&#x6362;&#x7B97;&#x5173;&#x7CFB;&#xFF1A;<br>1 Byte = 8 bit<br>1 KB = 1024 B<br>1 MB = 1024 KB<br>1 GB = 1024 MB<br>1 TB = 1024 GB</li>
 </ul>
 <ol start="7">
-<li>数据类型 </li>
+<li>&#x6570;&#x636E;&#x7C7B;&#x578B; </li>
 </ol>
 <ul>
-<li>java的数据类型有两中：基本数据类型和引用数据类型</li>
-<li>基本数据类型：4类8种<br>整型：byte short int long<br>浮点型：float double<br>字符型 char<br>布尔型（boolen） true false</li>
+<li>java&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x4E24;&#x4E2D;&#xFF1A;&#x57FA;&#x672C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x548C;&#x5F15;&#x7528;&#x6570;&#x636E;&#x7C7B;&#x578B;</li>
+<li>&#x57FA;&#x672C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF1A;4&#x7C7B;8&#x79CD;<br>&#x6574;&#x578B;&#xFF1A;byte short int long<br>&#x6D6E;&#x70B9;&#x578B;&#xFF1A;float double<br>&#x5B57;&#x7B26;&#x578B; char<br>&#x5E03;&#x5C14;&#x578B;&#xFF08;boolen&#xFF09; true false</li>
 </ul>
-<p>注意事项：<br>（1）整型变量默认是int，浮点型变量默认是double<br>（2）在定义long型时，需要在数据末尾加上L或者l，建议L；<br>（3） 在定义float型时，需要在数据末尾加上F或者f，建议F；<br><img src="//hxc.com/2019/07/24/java学习笔记7.24/1.png" alt=" "></p>
+<p>&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF1A;<br>&#xFF08;1&#xFF09;&#x6574;&#x578B;&#x53D8;&#x91CF;&#x9ED8;&#x8BA4;&#x662F;int&#xFF0C;&#x6D6E;&#x70B9;&#x578B;&#x53D8;&#x91CF;&#x9ED8;&#x8BA4;&#x662F;double<br>&#xFF08;2&#xFF09;&#x5728;&#x5B9A;&#x4E49;long&#x578B;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x6570;&#x636E;&#x672B;&#x5C3E;&#x52A0;&#x4E0A;L&#x6216;&#x8005;l&#xFF0C;&#x5EFA;&#x8BAE;L&#xFF1B;<br>&#xFF08;3&#xFF09; &#x5728;&#x5B9A;&#x4E49;float&#x578B;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x6570;&#x636E;&#x672B;&#x5C3E;&#x52A0;&#x4E0A;F&#x6216;&#x8005;f&#xFF0C;&#x5EFA;&#x8BAE;F&#xFF1B;<br><img src="/2019/07/24/java&#x5B66;&#x4E60;&#x7B14;&#x8BB0;7.24/1.png" alt=" "></p>
 <ul>
-<li>引用数据类型 类、接口、数组<br>（？）</li>
+<li>&#x5F15;&#x7528;&#x6570;&#x636E;&#x7C7B;&#x578B; &#x7C7B;&#x3001;&#x63A5;&#x53E3;&#x3001;&#x6570;&#x7EC4;<br>&#xFF08;&#xFF1F;&#xFF09;</li>
 </ul>
 <ol start="8">
-<li>标识符</li>
+<li>&#x6807;&#x8BC6;&#x7B26;</li>
 </ol>
 <ul>
-<li><p>用于给包、类、变量、方法起名字</p>
+<li><p>&#x7528;&#x4E8E;&#x7ED9;&#x5305;&#x3001;&#x7C7B;&#x3001;&#x53D8;&#x91CF;&#x3001;&#x65B9;&#x6CD5;&#x8D77;&#x540D;&#x5B57;</p>
 </li>
-<li><p>组成规则:<br>A.unicode字符：数字，大小写字母，汉字<br>B.下划线 _<br>C.美元符 $</p>
+<li><p>&#x7EC4;&#x6210;&#x89C4;&#x5219;:<br>A.unicode&#x5B57;&#x7B26;&#xFF1A;&#x6570;&#x5B57;&#xFF0C;&#x5927;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#xFF0C;&#x6C49;&#x5B57;<br>B.&#x4E0B;&#x5212;&#x7EBF; _<br>C.&#x7F8E;&#x5143;&#x7B26; $</p>
 </li>
-<li><p>注意事项：<br>A.不能以数字开头<br>B.不能是关键字</p>
+<li><p>&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF1A;<br>A.&#x4E0D;&#x80FD;&#x4EE5;&#x6570;&#x5B57;&#x5F00;&#x5934;<br>B.&#x4E0D;&#x80FD;&#x662F;&#x5173;&#x952E;&#x5B57;</p>
 </li>
-<li><p>命名规范——见名知意<br>A.包：全小写；多级包用.隔开<br>B.类：一个单词首字母大写；多个单词每个单词首字母大写<br>C.方法和变量：一个单词首字母小写；多个单词组成从第二个单词开始首字母大写</p>
+<li><p>&#x547D;&#x540D;&#x89C4;&#x8303;&#x2014;&#x2014;&#x89C1;&#x540D;&#x77E5;&#x610F;<br>A.&#x5305;&#xFF1A;&#x5168;&#x5C0F;&#x5199;&#xFF1B;&#x591A;&#x7EA7;&#x5305;&#x7528;.&#x9694;&#x5F00;<br>B.&#x7C7B;&#xFF1A;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#xFF1B;&#x591A;&#x4E2A;&#x5355;&#x8BCD;&#x6BCF;&#x4E2A;&#x5355;&#x8BCD;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;<br>C.&#x65B9;&#x6CD5;&#x548C;&#x53D8;&#x91CF;&#xFF1A;&#x4E00;&#x4E2A;&#x5355;&#x8BCD;&#x9996;&#x5B57;&#x6BCD;&#x5C0F;&#x5199;&#xFF1B;&#x591A;&#x4E2A;&#x5355;&#x8BCD;&#x7EC4;&#x6210;&#x4ECE;&#x7B2C;&#x4E8C;&#x4E2A;&#x5355;&#x8BCD;&#x5F00;&#x59CB;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</p>
 </li>
 </ul>
 <ol start="9">
-<li>变量使用的注意事项</li>
+<li>&#x53D8;&#x91CF;&#x4F7F;&#x7528;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;</li>
 </ol>
 <ul>
-<li>变量必须先赋值再使用</li>
-<li>变量只在其范围内有效（一个大括号里），注意代码块里面的变量只在代码块里面有效</li>
-<li>一行可以定义多个变量</li>
+<li>&#x53D8;&#x91CF;&#x5FC5;&#x987B;&#x5148;&#x8D4B;&#x503C;&#x518D;&#x4F7F;&#x7528;</li>
+<li>&#x53D8;&#x91CF;&#x53EA;&#x5728;&#x5176;&#x8303;&#x56F4;&#x5185;&#x6709;&#x6548;&#xFF08;&#x4E00;&#x4E2A;&#x5927;&#x62EC;&#x53F7;&#x91CC;&#xFF09;&#xFF0C;&#x6CE8;&#x610F;&#x4EE3;&#x7801;&#x5757;&#x91CC;&#x9762;&#x7684;&#x53D8;&#x91CF;&#x53EA;&#x5728;&#x4EE3;&#x7801;&#x5757;&#x91CC;&#x9762;&#x6709;&#x6548;</li>
+<li>&#x4E00;&#x884C;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x591A;&#x4E2A;&#x53D8;&#x91CF;</li>
 </ul>
 <ol start="10">
-<li>类型转换</li>
+<li>&#x7C7B;&#x578B;&#x8F6C;&#x6362;</li>
 </ol>
 <ul>
-<li><p>隐式转换<br>byte、char、short——int——float——double<br>byte、char、short相互之间不转换，他们在一起的话都转为int</p>
+<li><p>&#x9690;&#x5F0F;&#x8F6C;&#x6362;<br>byte&#x3001;char&#x3001;short&#x2014;&#x2014;int&#x2014;&#x2014;float&#x2014;&#x2014;double<br>byte&#x3001;char&#x3001;short&#x76F8;&#x4E92;&#x4E4B;&#x95F4;&#x4E0D;&#x8F6C;&#x6362;&#xFF0C;&#x4ED6;&#x4EEC;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x8BDD;&#x90FD;&#x8F6C;&#x4E3A;int</p>
 </li>
-<li><p>强制类型转换<br>格式：（目标类型）+（被转换的数据）</p>
+<li><p>&#x5F3A;&#x5236;&#x7C7B;&#x578B;&#x8F6C;&#x6362;<br>&#x683C;&#x5F0F;&#xFF1A;&#xFF08;&#x76EE;&#x6807;&#x7C7B;&#x578B;&#xFF09;+&#xFF08;&#x88AB;&#x8F6C;&#x6362;&#x7684;&#x6570;&#x636E;&#xFF09;</p>
 </li>
 </ul>
 <ol start="11">
-<li>Eclipse的基本使用</li>
+<li>Eclipse&#x7684;&#x57FA;&#x672C;&#x4F7F;&#x7528;</li>
 </ol>
 <ul>
 <li></li>
@@ -180,7 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://hxc.com/2019/07/24/java学习笔记7.24/" data-id="cjyh3oxpu0000h9fijfcg0q2g" class="article-share-link">Share</a>
+      <a data-url="http://hxc.com/2019/07/24/java学习笔记7.24/" data-id="cjyh435ys0000mffijnsf4s4z" class="article-share-link">Share</a>
       
       
     </footer>
@@ -202,46 +202,46 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="欢迎使用-MWeb"><a href="#欢迎使用-MWeb" class="headerlink" title="欢迎使用 MWeb"></a>欢迎使用 MWeb</h1><p>MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件，目前已支持 Mac，iPad 和 iPhone。MWeb 有以下特色：</p>
-<h2 id="软件本身："><a href="#软件本身：" class="headerlink" title="软件本身："></a>软件本身：</h2><ul>
-<li>使用原生的 macOS 技术打造，追求与系统的完美结合。</li>
-<li>原则上，首先是追求界面简洁和高性能，然后才是强大易用，功能全面。</li>
+        <h1 id="&#x6B22;&#x8FCE;&#x4F7F;&#x7528;-MWeb"><a href="#&#x6B22;&#x8FCE;&#x4F7F;&#x7528;-MWeb" class="headerlink" title="&#x6B22;&#x8FCE;&#x4F7F;&#x7528; MWeb"></a>&#x6B22;&#x8FCE;&#x4F7F;&#x7528; MWeb</h1><p>MWeb &#x662F;&#x4E13;&#x4E1A;&#x7684; Markdown &#x5199;&#x4F5C;&#x3001;&#x8BB0;&#x7B14;&#x8BB0;&#x3001;&#x9759;&#x6001;&#x535A;&#x5BA2;&#x751F;&#x6210;&#x8F6F;&#x4EF6;&#xFF0C;&#x76EE;&#x524D;&#x5DF2;&#x652F;&#x6301; Mac&#xFF0C;iPad &#x548C; iPhone&#x3002;MWeb &#x6709;&#x4EE5;&#x4E0B;&#x7279;&#x8272;&#xFF1A;</p>
+<h2 id="&#x8F6F;&#x4EF6;&#x672C;&#x8EAB;&#xFF1A;"><a href="#&#x8F6F;&#x4EF6;&#x672C;&#x8EAB;&#xFF1A;" class="headerlink" title="&#x8F6F;&#x4EF6;&#x672C;&#x8EAB;&#xFF1A;"></a>&#x8F6F;&#x4EF6;&#x672C;&#x8EAB;&#xFF1A;</h2><ul>
+<li>&#x4F7F;&#x7528;&#x539F;&#x751F;&#x7684; macOS &#x6280;&#x672F;&#x6253;&#x9020;&#xFF0C;&#x8FFD;&#x6C42;&#x4E0E;&#x7CFB;&#x7EDF;&#x7684;&#x5B8C;&#x7F8E;&#x7ED3;&#x5408;&#x3002;</li>
+<li>&#x539F;&#x5219;&#x4E0A;&#xFF0C;&#x9996;&#x5148;&#x662F;&#x8FFD;&#x6C42;&#x754C;&#x9762;&#x7B80;&#x6D01;&#x548C;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x7136;&#x540E;&#x624D;&#x662F;&#x5F3A;&#x5927;&#x6613;&#x7528;&#xFF0C;&#x529F;&#x80FD;&#x5168;&#x9762;&#x3002;</li>
 </ul>
-<h2 id="Markdown-语法："><a href="#Markdown-语法：" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h2><ul>
-<li>使用 Github Flavored Markdown 语法，简称 GFM 语法。</li>
-<li>支持表格、TOC、LaTeX、代码块、任务列表、脚注等。</li>
-<li>画图库支持 mermaid, viz, echarts, plantuml, sequence, flow。</li>
+<h2 id="Markdown-&#x8BED;&#x6CD5;&#xFF1A;"><a href="#Markdown-&#x8BED;&#x6CD5;&#xFF1A;" class="headerlink" title="Markdown &#x8BED;&#x6CD5;&#xFF1A;"></a>Markdown &#x8BED;&#x6CD5;&#xFF1A;</h2><ul>
+<li>&#x4F7F;&#x7528; Github Flavored Markdown &#x8BED;&#x6CD5;&#xFF0C;&#x7B80;&#x79F0; GFM &#x8BED;&#x6CD5;&#x3002;</li>
+<li>&#x652F;&#x6301;&#x8868;&#x683C;&#x3001;TOC&#x3001;LaTeX&#x3001;&#x4EE3;&#x7801;&#x5757;&#x3001;&#x4EFB;&#x52A1;&#x5217;&#x8868;&#x3001;&#x811A;&#x6CE8;&#x7B49;&#x3002;</li>
+<li>&#x753B;&#x56FE;&#x5E93;&#x652F;&#x6301; mermaid, viz, echarts, plantuml, sequence, flow&#x3002;</li>
 </ul>
-<h2 id="Markdown-辅助："><a href="#Markdown-辅助：" class="headerlink" title="Markdown 辅助："></a>Markdown 辅助：</h2><ul>
-<li>支持截图并粘贴、复制并粘贴、拖拽等方式插入图片并直接显示在编辑器内。</li>
-<li>在兼容 Markdown 语法的情况下支持设置图片宽度。</li>
-<li>好用的表格插入和 LaTeX 书写辅助。</li>
+<h2 id="Markdown-&#x8F85;&#x52A9;&#xFF1A;"><a href="#Markdown-&#x8F85;&#x52A9;&#xFF1A;" class="headerlink" title="Markdown &#x8F85;&#x52A9;&#xFF1A;"></a>Markdown &#x8F85;&#x52A9;&#xFF1A;</h2><ul>
+<li>&#x652F;&#x6301;&#x622A;&#x56FE;&#x5E76;&#x7C98;&#x8D34;&#x3001;&#x590D;&#x5236;&#x5E76;&#x7C98;&#x8D34;&#x3001;&#x62D6;&#x62FD;&#x7B49;&#x65B9;&#x5F0F;&#x63D2;&#x5165;&#x56FE;&#x7247;&#x5E76;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x5185;&#x3002;</li>
+<li>&#x5728;&#x517C;&#x5BB9; Markdown &#x8BED;&#x6CD5;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x652F;&#x6301;&#x8BBE;&#x7F6E;&#x56FE;&#x7247;&#x5BBD;&#x5EA6;&#x3002;</li>
+<li>&#x597D;&#x7528;&#x7684;&#x8868;&#x683C;&#x63D2;&#x5165;&#x548C; LaTeX &#x4E66;&#x5199;&#x8F85;&#x52A9;&#x3002;</li>
 </ul>
-<h2 id="Markdown-输出："><a href="#Markdown-输出：" class="headerlink" title="Markdown 输出："></a>Markdown 输出：</h2><ul>
-<li>支持导出为图片、HTML、Epub、PDF、RTF、Docx。</li>
-<li>支持发布到 Wordrpess、支持 Metaweblog API 协议的服务、Wordpress.com、印象笔记（Evernote）、Blogger、Medium、Tumblr。</li>
-<li>图片上传服务（图床）支持 Google Photos、Imgur、七牛云、又拍云和自定义的图床服务。</li>
+<h2 id="Markdown-&#x8F93;&#x51FA;&#xFF1A;"><a href="#Markdown-&#x8F93;&#x51FA;&#xFF1A;" class="headerlink" title="Markdown &#x8F93;&#x51FA;&#xFF1A;"></a>Markdown &#x8F93;&#x51FA;&#xFF1A;</h2><ul>
+<li>&#x652F;&#x6301;&#x5BFC;&#x51FA;&#x4E3A;&#x56FE;&#x7247;&#x3001;HTML&#x3001;Epub&#x3001;PDF&#x3001;RTF&#x3001;Docx&#x3002;</li>
+<li>&#x652F;&#x6301;&#x53D1;&#x5E03;&#x5230; Wordrpess&#x3001;&#x652F;&#x6301; Metaweblog API &#x534F;&#x8BAE;&#x7684;&#x670D;&#x52A1;&#x3001;Wordpress.com&#x3001;&#x5370;&#x8C61;&#x7B14;&#x8BB0;&#xFF08;Evernote&#xFF09;&#x3001;Blogger&#x3001;Medium&#x3001;Tumblr&#x3002;</li>
+<li>&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x670D;&#x52A1;&#xFF08;&#x56FE;&#x5E8A;&#xFF09;&#x652F;&#x6301; Google Photos&#x3001;Imgur&#x3001;&#x4E03;&#x725B;&#x4E91;&#x3001;&#x53C8;&#x62CD;&#x4E91;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x56FE;&#x5E8A;&#x670D;&#x52A1;&#x3002;</li>
 </ul>
-<h2 id="Markdown-笔记："><a href="#Markdown-笔记：" class="headerlink" title="Markdown 笔记："></a>Markdown 笔记：</h2><ul>
-<li>强大的文档库支持分类树和标签管理文档，文档可归类于多个分类，可以把分类整个导出为 Epub、PDF 和生成静态网站。非常合适用于笔记、个人知识收集、管理和输出。</li>
-<li>快速笔记：随意增加笔记及图片等素材，支持以天为单位把增加的素材组合在一个文档内，方便整理及记录历史收集情况。</li>
-<li>快速搜索：目前已支持全局快捷键调出搜索。</li>
+<h2 id="Markdown-&#x7B14;&#x8BB0;&#xFF1A;"><a href="#Markdown-&#x7B14;&#x8BB0;&#xFF1A;" class="headerlink" title="Markdown &#x7B14;&#x8BB0;&#xFF1A;"></a>Markdown &#x7B14;&#x8BB0;&#xFF1A;</h2><ul>
+<li>&#x5F3A;&#x5927;&#x7684;&#x6587;&#x6863;&#x5E93;&#x652F;&#x6301;&#x5206;&#x7C7B;&#x6811;&#x548C;&#x6807;&#x7B7E;&#x7BA1;&#x7406;&#x6587;&#x6863;&#xFF0C;&#x6587;&#x6863;&#x53EF;&#x5F52;&#x7C7B;&#x4E8E;&#x591A;&#x4E2A;&#x5206;&#x7C7B;&#xFF0C;&#x53EF;&#x4EE5;&#x628A;&#x5206;&#x7C7B;&#x6574;&#x4E2A;&#x5BFC;&#x51FA;&#x4E3A; Epub&#x3001;PDF &#x548C;&#x751F;&#x6210;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#x3002;&#x975E;&#x5E38;&#x5408;&#x9002;&#x7528;&#x4E8E;&#x7B14;&#x8BB0;&#x3001;&#x4E2A;&#x4EBA;&#x77E5;&#x8BC6;&#x6536;&#x96C6;&#x3001;&#x7BA1;&#x7406;&#x548C;&#x8F93;&#x51FA;&#x3002;</li>
+<li>&#x5FEB;&#x901F;&#x7B14;&#x8BB0;&#xFF1A;&#x968F;&#x610F;&#x589E;&#x52A0;&#x7B14;&#x8BB0;&#x53CA;&#x56FE;&#x7247;&#x7B49;&#x7D20;&#x6750;&#xFF0C;&#x652F;&#x6301;&#x4EE5;&#x5929;&#x4E3A;&#x5355;&#x4F4D;&#x628A;&#x589E;&#x52A0;&#x7684;&#x7D20;&#x6750;&#x7EC4;&#x5408;&#x5728;&#x4E00;&#x4E2A;&#x6587;&#x6863;&#x5185;&#xFF0C;&#x65B9;&#x4FBF;&#x6574;&#x7406;&#x53CA;&#x8BB0;&#x5F55;&#x5386;&#x53F2;&#x6536;&#x96C6;&#x60C5;&#x51B5;&#x3002;</li>
+<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;&#xFF1A;&#x76EE;&#x524D;&#x5DF2;&#x652F;&#x6301;&#x5168;&#x5C40;&#x5FEB;&#x6377;&#x952E;&#x8C03;&#x51FA;&#x641C;&#x7D22;&#x3002;</li>
 </ul>
-<h2 id="外部-Markdown-文档："><a href="#外部-Markdown-文档：" class="headerlink" title="外部 Markdown 文档："></a>外部 Markdown 文档：</h2><ul>
-<li>外部 Markdown 文档使用外部模式管理。外部模式使用目录树的方式编辑和管理你的 markdown 文档，还能很好的支持 gitbook、JekyII、hexo 等等编辑和图片插入。</li>
+<h2 id="&#x5916;&#x90E8;-Markdown-&#x6587;&#x6863;&#xFF1A;"><a href="#&#x5916;&#x90E8;-Markdown-&#x6587;&#x6863;&#xFF1A;" class="headerlink" title="&#x5916;&#x90E8; Markdown &#x6587;&#x6863;&#xFF1A;"></a>&#x5916;&#x90E8; Markdown &#x6587;&#x6863;&#xFF1A;</h2><ul>
+<li>&#x5916;&#x90E8; Markdown &#x6587;&#x6863;&#x4F7F;&#x7528;&#x5916;&#x90E8;&#x6A21;&#x5F0F;&#x7BA1;&#x7406;&#x3002;&#x5916;&#x90E8;&#x6A21;&#x5F0F;&#x4F7F;&#x7528;&#x76EE;&#x5F55;&#x6811;&#x7684;&#x65B9;&#x5F0F;&#x7F16;&#x8F91;&#x548C;&#x7BA1;&#x7406;&#x4F60;&#x7684; markdown &#x6587;&#x6863;&#xFF0C;&#x8FD8;&#x80FD;&#x5F88;&#x597D;&#x7684;&#x652F;&#x6301; gitbook&#x3001;JekyII&#x3001;hexo &#x7B49;&#x7B49;&#x7F16;&#x8F91;&#x548C;&#x56FE;&#x7247;&#x63D2;&#x5165;&#x3002;</li>
 </ul>
-<h2 id="MWeb-文档："><a href="#MWeb-文档：" class="headerlink" title="MWeb 文档："></a>MWeb 文档：</h2><p>如果要更详细了解 MWeb，建议你一定要去看一下官网的帮助文档，网址为：<a href="https://zh.mweb.im/help.html" target="_blank" rel="noopener">https://zh.mweb.im/help.html</a>。我们建议在使用文档库之前，一定要阅读一下  <a href="https://zh.mweb.im/mweb-library.html" target="_blank" rel="noopener">MWeb 文档库详细介绍</a> 这篇文章，以便更好的使用文档库。</p>
-<h2 id="帮助我们改进-MWeb"><a href="#帮助我们改进-MWeb" class="headerlink" title="帮助我们改进 MWeb"></a>帮助我们改进 MWeb</h2><p>如果你喜欢 MWeb，想让它变得更好，你可以：</p>
+<h2 id="MWeb-&#x6587;&#x6863;&#xFF1A;"><a href="#MWeb-&#x6587;&#x6863;&#xFF1A;" class="headerlink" title="MWeb &#x6587;&#x6863;&#xFF1A;"></a>MWeb &#x6587;&#x6863;&#xFF1A;</h2><p>&#x5982;&#x679C;&#x8981;&#x66F4;&#x8BE6;&#x7EC6;&#x4E86;&#x89E3; MWeb&#xFF0C;&#x5EFA;&#x8BAE;&#x4F60;&#x4E00;&#x5B9A;&#x8981;&#x53BB;&#x770B;&#x4E00;&#x4E0B;&#x5B98;&#x7F51;&#x7684;&#x5E2E;&#x52A9;&#x6587;&#x6863;&#xFF0C;&#x7F51;&#x5740;&#x4E3A;&#xFF1A;<a href="https://zh.mweb.im/help.html" target="_blank" rel="noopener">https://zh.mweb.im/help.html</a>&#x3002;&#x6211;&#x4EEC;&#x5EFA;&#x8BAE;&#x5728;&#x4F7F;&#x7528;&#x6587;&#x6863;&#x5E93;&#x4E4B;&#x524D;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x9605;&#x8BFB;&#x4E00;&#x4E0B;  <a href="https://zh.mweb.im/mweb-library.html" target="_blank" rel="noopener">MWeb &#x6587;&#x6863;&#x5E93;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;</a> &#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF0C;&#x4EE5;&#x4FBF;&#x66F4;&#x597D;&#x7684;&#x4F7F;&#x7528;&#x6587;&#x6863;&#x5E93;&#x3002;</p>
+<h2 id="&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x6539;&#x8FDB;-MWeb"><a href="#&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x6539;&#x8FDB;-MWeb" class="headerlink" title="&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x6539;&#x8FDB; MWeb"></a>&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x6539;&#x8FDB; MWeb</h2><p>&#x5982;&#x679C;&#x4F60;&#x559C;&#x6B22; MWeb&#xFF0C;&#x60F3;&#x8BA9;&#x5B83;&#x53D8;&#x5F97;&#x66F4;&#x597D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#xFF1A;</p>
 <ol>
-<li>推荐 MWeb，让更多的人知道。</li>
-<li>给我们发反馈和建议：<a href="mailto:&#99;&#x6f;&#x64;&#x65;&#114;&#102;&#x6f;&#114;&#97;&#114;&#116;&#43;&#x32;&#51;&#x33;&#51;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;" target="_blank" rel="noopener">&#99;&#x6f;&#x64;&#x65;&#114;&#102;&#x6f;&#114;&#97;&#114;&#116;&#43;&#x32;&#51;&#x33;&#51;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></li>
-<li>在 Mac App Store 上评价 （如果是在 MAS 上购买的话）。</li>
+<li>&#x63A8;&#x8350; MWeb&#xFF0C;&#x8BA9;&#x66F4;&#x591A;&#x7684;&#x4EBA;&#x77E5;&#x9053;&#x3002;</li>
+<li>&#x7ED9;&#x6211;&#x4EEC;&#x53D1;&#x53CD;&#x9988;&#x548C;&#x5EFA;&#x8BAE;&#xFF1A;<a href="mailto:coderforart+2333@gmail.com" target="_blank" rel="noopener">coderforart+2333@gmail.com</a></li>
+<li>&#x5728; Mac App Store &#x4E0A;&#x8BC4;&#x4EF7; &#xFF08;&#x5982;&#x679C;&#x662F;&#x5728; MAS &#x4E0A;&#x8D2D;&#x4E70;&#x7684;&#x8BDD;&#xFF09;&#x3002;</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://hxc.com/2019/07/12/欢迎使用 MWeb/" data-id="cjyh3oxpy0001h9finm0supis" class="article-share-link">Share</a>
+      <a data-url="http://hxc.com/2019/07/12/欢迎使用 MWeb/" data-id="cjyh435yw0001mffidvn1z0cc" class="article-share-link">Share</a>
       
       
     </footer>
